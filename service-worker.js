@@ -4,6 +4,8 @@ let urlsToCache = [
 	'manifest.json',
 	'css/styles.css',
 	'scripts/swHandling.js'
+  'images/icon_192.png',
+  'images/icon_512.png'
 ];
 
 self.addEventListener('install', function(event) {
